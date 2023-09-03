@@ -1,27 +1,27 @@
-package com.example.baluev_pr10_mobil;
+package com.example.buzov_pr10;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.Button;
 
-public class Table extends AppCompatActivity implements View.OnClickListener {
+public class Main extends AppCompatActivity implements View.OnClickListener {
 
-    LinearLayout btn;
+    Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_table);
-        btn = findViewById(R.id.btn_borsh);
+        setContentView(R.layout.activity_main);
+        btn = findViewById(R.id.button);
         btn.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.btn_borsh:
+            case R.id.button:
                 startActivity(new Intent(this, Table.class));
                 break;
         }

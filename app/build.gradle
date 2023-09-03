@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.baluev_pr10_mobil'
+    namespace 'com.example.buzov_pr10'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.baluev_pr10_mobil"
+        applicationId "com.example.buzov_pr10"
         minSdk 30
         targetSdk 33
         versionCode 1

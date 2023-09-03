@@ -1,4 +1,4 @@
-package com.example.baluev_pr10_mobil;
+package com.example.buzov_pr10;
 
 import androidx.appcompat.app.AppCompatActivity;
 
